@@ -52,6 +52,17 @@ body {
   font-family: "Georgia", serif;
 }
 
+/* The purple pill */
+.tagline-pill {
+  display: inline-block;
+  background: var(--purple);
+  color: white;
+  padding: 10px 26px;
+  border-radius: 999px; /* pill shape */
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
 /* ----------------------------------------
    Main layout
 ----------------------------------------- */
