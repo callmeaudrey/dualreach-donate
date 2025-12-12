@@ -101,15 +101,16 @@ h1 {
 /* ----------------------------------------
    DONATE BOX
 ----------------------------------------- */
+
+
 .green-box {
   background: var(--light-green);
-  padding: 30px 30px 35px;
+  padding: 36px 40px 40px;
   border-radius: 18px;
-  margin-top: 40px;
+  margin-top: 44px;
   text-align: center;
   font-size: 1.15rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  width: 100%;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
 }
 
 /* ----------------------------------------
