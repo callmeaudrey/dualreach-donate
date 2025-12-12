@@ -13,48 +13,82 @@ body {
   font-family: Georgia, serif;
   background: #ffffff; /* WHITE page background */
   color: var(--text);
-
   line-height: 1.55;
 }
 
 /* ----------------------------------------
    HEADER
 ----------------------------------------- */
+
 .site-header {
   background: var(--light-green);
-  padding: 28px 0 22px;
-  text-align: left;           /* <-- NEW */
+  padding: 34px 0 26px;   /* ↑ taller like WP */
 }
 
 .header-inner {
+  max-width: 1140px;      /* WP container width */
+  margin: 0 auto;
+  padding-left: 32px;     /* WP left gutter */
+  display: flex;
+  flex-direction: column;
+}
+
+.header-logo {
+  max-width: 380px;       /* WP logo scale */
+  margin-bottom: 6px;
+}
+
+.tagline-pill {
+  display: inline-block;
+  max-width: 560px;
+  background: var(--purple);
+  color: white;
+  padding: 7px 22px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  line-height: 1.25;
+  text-align: center;
+
+  margin-left: 44px;     /* WP offset from logo */
+  margin-top: 6px;
+}
+
+
+/* .site-header {
+  background: var(--light-green);
+  padding: 28px 0 22px;
+  text-align: left;           
+} */
+
+/* .header-inner {
   display: flex;
   flex-direction: column;
    max-width: 1100px;
   margin: 0 auto;
-  padding-left: 24px;         /* <-- NEW indentation */
+  padding-left: 24px;         
   text-align: left;  
-}
+} */
 
-.header-logo {
+/* .header-logo {
   max-width: 360px;
   height: auto;
   margin-bottom: 8px; /* bring logo and tagline closer */
-}
+} */
 
-.tagline-pill {
-display: inline-block;   /* <-- makes pill fit text width only */
+/* .tagline-pill {
+display: inline-block;   
   width: auto;
-  max-width: 560px;      /* key difference */
-  white-space: normal;  /* allow wrapping */
-  text-align: center;   /* match WP pill */
+  max-width: 560px;      
+  white-space: normal;  
+  text-align: center;   
   background: var(--purple);
   color: white;
-  padding: 8px 24px; /* closer to real site */
-  border-radius: 999px; /* pill shape */
-  font-size: 0.95rem;  /* NEW — mimic WordPress offset */
+  padding: 8px 24px; 
+  border-radius: 999px; 
+  font-size: 0.95rem;  
   margin-left: 36px;
   margin-top: 10px;
-}
+} */
 
 
 /* ----------------------------------------
