@@ -36,35 +36,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* ----------------------------------------
-   Header (Logo + Tagline)
------------------------------------------ */
-
-/* Purple logo bar */
-.logo-bar {
-  background: var(--purple);
-  padding: 25px 0;
-}
-
-.logo-bar img {
-  max-width: 340px;
-  height: auto;
-}
-
-/* Tagline bar */
-.tagline-bar {
-  background: var(--purple);
-  padding: 10px 0 14px 0;
-  margin-top: 0;
-}
-
-.tagline-bar p {
-  color: #fff;
-  font-size: 1rem;
-  margin: 0;
-  font-family: "Georgia", serif;
-}
-
 /* The purple pill */
 .tagline-pill {
   display: inline-block;
@@ -77,70 +48,63 @@ body {
 }
 
 /* ----------------------------------------
-   Main layout
+   MAIN CONTENT
 ----------------------------------------- */
-
 main {
   max-width: var(--max-width);
-  margin: 40px auto;
-  padding: 0 20px;
+  margin: 50px auto;
+  padding: 0 24px;
 }
 
 h1 {
   font-size: 2.3rem;
-  margin-bottom: 20px;
-  color: #0e1a2b;
+  margin-bottom: 28px;
 }
 
+/* two-column layout */
 .donate-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
 
-/* Photo */
 .donate-photo img {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 14px;
 }
 
-/* Text section */
 .donate-copy p {
   margin-bottom: 14px;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 
 /* ----------------------------------------
-   Green Donate Box
+   DONATE BOX
 ----------------------------------------- */
-
 .green-box {
   background: var(--light-green);
-  padding: 25px;
-  border-radius: 16px;
-  margin-top: 35px;
+  padding: 30px 30px 35px;
+  border-radius: 18px;
+  margin-top: 40px;
   text-align: center;
   font-size: 1.15rem;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 /* ----------------------------------------
-   Footer
+   FOOTER
 ----------------------------------------- */
-
 footer {
   text-align: center;
-  padding: 20px;
-  color: #555;
-  margin-top: 40px;
+  color: #666;
   font-size: 0.9rem;
-  border-top: 1px solid #ddd;
+  padding: 24px 0;
+  margin-top: 50px;
 }
 
 /* ----------------------------------------
-   Responsive
+   RESPONSIVE
 ----------------------------------------- */
-
 @media (max-width: 900px) {
   .donate-layout {
     grid-template-columns: 1fr;
@@ -149,6 +113,5 @@ footer {
   .donate-photo img {
     width: 95%;
     margin: 0 auto;
-    display: block;
   }
 }
