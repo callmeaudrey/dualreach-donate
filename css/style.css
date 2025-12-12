@@ -22,7 +22,6 @@ body {
 .site-header {
   background: var(--light-green);
   padding: 28px 0 22px; /* slightly tighten spacing */
-  text-align: center;
 }
 
 .header-inner {
