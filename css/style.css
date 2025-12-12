@@ -93,9 +93,9 @@ h1 {
 
 /* Text column */
 .donate-copy p {
-  margin-bottom: 14px;
-  font-size: 1.15rem;
-   text-align: left;
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 /* ----------------------------------------
