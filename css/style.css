@@ -47,8 +47,9 @@ display: inline-block;   /* <-- makes pill fit text width only */
   padding: 8px 24px; /* closer to real site */
   border-radius: 999px; /* pill shape */
   font-size: 0.95rem;
-  margin-left: 0; 
-  margin-top: 4px;
+     /* NEW — mimic WordPress offset */
+  margin-left: 36px;
+  margin-top: 10px;
 }
 
 
