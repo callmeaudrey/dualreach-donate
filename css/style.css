@@ -40,7 +40,7 @@ body {
 }
 
 .tagline-pill {
-  display: inline-block;
+
   background: var(--purple);
   color: white;
   padding: 8px 24px; /* closer to real site */
