@@ -30,6 +30,7 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding-left: 24px;         /* <-- NEW indentation */
+  text-align: left;  
 }
 
 .header-logo {
@@ -45,8 +46,10 @@ body {
   padding: 8px 24px; /* closer to real site */
   border-radius: 999px; /* pill shape */
   font-size: 0.95rem;
-  margin-top: 0;
+  margin-left: 0; 
+  margin-top: 4px;
 }
+
 
 /* ----------------------------------------
    MAIN CONTENT
