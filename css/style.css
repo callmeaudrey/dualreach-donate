@@ -9,7 +9,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 40;
   font-family: Georgia, serif;
   background: #ffffff; /* WHITE page background */
   color: var(--text);
