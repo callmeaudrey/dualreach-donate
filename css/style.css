@@ -52,7 +52,7 @@ body {
 main {
   
   background: #ffffff; /* add this line */
-  padding: 0 24px;
+  padding: 24px;
 }
 
 h1 {
