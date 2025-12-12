@@ -51,6 +51,7 @@ body {
 ----------------------------------------- */
 main {
   max-width: var(--max-width);
+  background: #ffffff; /* add this line */
   margin: 40px auto;
   padding: 0 24px;
 }
@@ -80,6 +81,7 @@ h1 {
 .donate-copy p {
   margin-bottom: 14px;
   font-size: 1.15rem;
+   text-align: left;
 }
 
 /* ----------------------------------------
