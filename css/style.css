@@ -54,43 +54,6 @@ body {
 }
 
 
-/* .site-header {
-  background: var(--light-green);
-  padding: 28px 0 22px;
-  text-align: left;           
-} */
-
-/* .header-inner {
-  display: flex;
-  flex-direction: column;
-   max-width: 1100px;
-  margin: 0 auto;
-  padding-left: 24px;         
-  text-align: left;  
-} */
-
-/* .header-logo {
-  max-width: 360px;
-  height: auto;
-  margin-bottom: 8px; /* bring logo and tagline closer */
-} */
-
-/* .tagline-pill {
-display: inline-block;   
-  width: auto;
-  max-width: 560px;      
-  white-space: normal;  
-  text-align: center;   
-  background: var(--purple);
-  color: white;
-  padding: 8px 24px; 
-  border-radius: 999px; 
-  font-size: 0.95rem;  
-  margin-left: 36px;
-  margin-top: 10px;
-} */
-
-
 /* ----------------------------------------
    MAIN CONTENT
 ----------------------------------------- */
