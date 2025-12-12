@@ -49,9 +49,8 @@ body {
    MAIN CONTENT
 ----------------------------------------- */
 main {
-  max-width: var(--max-width);
+  
   background: #ffffff; /* add this line */
-  margin: 40px auto;
   padding: 0 24px;
 }
 
